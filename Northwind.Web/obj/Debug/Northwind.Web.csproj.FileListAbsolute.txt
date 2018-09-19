@@ -1,0 +1,2 @@
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\Sample\Northwind.Web\obj\Debug\Northwind.Web.csprojResolveAssemblyReference.cache
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Web\obj\Debug\Northwind.Web.csprojResolveAssemblyReference.cache

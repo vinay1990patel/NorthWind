@@ -1,0 +1,1 @@
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Test\obj\Debug\Northwind.Test.csprojResolveAssemblyReference.cache
