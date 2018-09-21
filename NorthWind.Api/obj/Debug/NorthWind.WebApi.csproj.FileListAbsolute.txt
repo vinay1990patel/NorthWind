@@ -35,6 +35,7 @@ C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.A
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Newtonsoft.Json.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Northwind.Entities.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Northwind.Repository.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Northwind.Service.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Owin.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Repository.Pattern.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Repository.Pattern.Ef6.dll
@@ -72,6 +73,7 @@ C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.A
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\CommonServiceLocator.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Newtonsoft.Json.xml
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Northwind.Service.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Repository.Pattern.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Repository.Pattern.Ef6.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\NorthWind.Api\bin\Service.Pattern.pdb

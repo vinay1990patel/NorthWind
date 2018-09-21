@@ -22,10 +22,8 @@ namespace NorthWind.Api
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             UnityConfig.RegisterComponents();
-            //  IUnityContainer container = BuildUnityContainer();
-            //IUnityContainer container = new UnityContainer();
-            //container.RegisterInstance<IHttpControllerActivator>(new UnityConfig(container));
-          
+         
+                  
           
         }
     }

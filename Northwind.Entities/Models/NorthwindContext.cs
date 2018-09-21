@@ -49,7 +49,7 @@ namespace Northwind.Entities.Models
         public DbSet<SalesTotalsByAmount> SalesTotalsByAmounts { get; set; }
         public DbSet<SummaryOfSalesByQuarter> SummaryOfSalesByQuarters { get; set; }
         public DbSet<SummaryOfSalesByYear> SummaryOfSalesByYears { get; set; }
-
+        public DbSet<ExceptionLogger> ExceptionLogger { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new CategoryMap());
@@ -82,12 +82,17 @@ namespace Northwind.Entities.Models
             modelBuilder.Configurations.Add(new SalesTotalsByAmountMap());
             modelBuilder.Configurations.Add(new SummaryOfSalesByQuarterMap());
             modelBuilder.Configurations.Add(new SummaryOfSalesByYearMap());
+            modelBuilder.Configurations.Add(new ExceptionLoggerMap());
 
-            modelBuilder.Entity<Customer>()
-                .HasMany<Order>(c => c.Customer1)
-                .WithOptional(p => p.Customer)
-                .HasForeignKey(f=>f.CustomerID)
-                .WillCascadeOnDelete(true);
+            //modelBuilder.Entity<Customer>()
+            //    .HasOptional(p => p.Customer1)
+            //    .WithOptionalDependent()
+            //     .WillCascadeOnDelete(false);
+
+            //modelBuilder.Entity<Order>()
+            // .HasMany<Customer>(c => c.CustomerID)
+            // .WithOptional(x => x.Parent)
+            // .WillCascadeOnDelete(true);
         }
     }
 }

@@ -64,6 +64,7 @@
     <Compile Include="Models\CustomerDemographic.cs" />
     <Compile Include="Models\Customer_and_Suppliers_by_City.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\ExceptionLogger.cs" />
     <Compile Include="Models\Mapping\AlphabeticalListOfProductMap.cs" />
     <Compile Include="Models\Mapping\Alphabetical_list_of_productMap.cs" />
     <Compile Include="Models\Mapping\CategoryMap.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Models\Mapping\CustomerMap.cs" />
     <Compile Include="Models\Mapping\Customer_and_Suppliers_by_CityMap.cs" />
     <Compile Include="Models\Mapping\EmployeeMap.cs" />
+    <Compile Include="Models\Mapping\ExceptionLoggerMap.cs" />
     <Compile Include="Models\Mapping\OrderDetailMap.cs" />
     <Compile Include="Models\Mapping\OrderDetailsExtendedMap.cs" />
     <Compile Include="Models\Mapping\OrderMap.cs" />

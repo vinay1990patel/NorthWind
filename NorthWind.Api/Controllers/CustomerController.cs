@@ -12,6 +12,8 @@ using Northwind.Repository.Models;
 
 using System.Threading.Tasks;
 using Repository.Pattern.UnitOfWork;
+using NorthWind.Api.CustomFilter;
+
 namespace NorthWind.Api.Controllers
 {
     public class CustomerController : ApiController
@@ -87,18 +89,18 @@ namespace NorthWind.Api.Controllers
  }
 
         // PUT: api/Customer/5
-        public async  Task<IHttpActionResult> PutCustomer([FromUri] string id,  Customer customer)
+        public IHttpActionResult PutCustomer([FromUri] string id, Customer customer)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            Customer customer1 =  _customerService.Find(id);
+            Customer customer1 = _customerService.Find(id);
             if (customer == null)
             {
                 return NotFound();
             }
-            if(id != customer.CustomerID)
+            if (id != customer.CustomerID)
             {
                 return BadRequest(ModelState);
             }
@@ -108,10 +110,10 @@ namespace NorthWind.Api.Controllers
                 _customerService.Update(customer1);
                 _unitOfWork.SaveChanges();
             }
-            catch(DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException)
             {
                 ModelState.AddModelError(string.Empty, "there is somthing went wrong");
-                if(!UserExist(id))
+                if (!UserExist(id))
                 {
                     return NotFound();
                 }
@@ -121,17 +123,27 @@ namespace NorthWind.Api.Controllers
         }
 
         // DELETE: api/Customer/5
-        public async Task<IHttpActionResult> DeleteCustomer([FromUri] string id)
+         [HttpDelete]
+        [CustomExceptionHandler()]
+        public IHttpActionResult DeleteCustomer([FromUri] string id)
         {
             Customer customer = _customerService.Find(id);
             if (customer == null)
             {
                 return NotFound();
             }
+            try
+            { 
             customer.ObjectState = ObjectState.Deleted;
             _customerService.Delete(customer);
+            _unitOfWork.SaveChanges();
+            }
+            catch
+            { 
             //  await _unitOfWorkAsync.SaveChangesAsync();
-             _unitOfWork.SaveChanges();
+          
+                throw new Exception("some thing happen");
+            }
             return StatusCode(HttpStatusCode.OK);
         }
 

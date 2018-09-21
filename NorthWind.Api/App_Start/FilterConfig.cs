@@ -1,6 +1,6 @@
-﻿using System.Web;
+﻿using NorthWind.Api.CustomFilter;
+using System.Web;
 using System.Web.Mvc;
-
 namespace NorthWind.Api
 {
     public class FilterConfig
@@ -8,6 +8,7 @@ namespace NorthWind.Api
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new CustomExceptionHandlerAttribute());
         }
     }
 }

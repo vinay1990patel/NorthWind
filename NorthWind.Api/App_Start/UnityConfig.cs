@@ -44,9 +44,11 @@ namespace NorthWind.Api
                .RegisterType<IUnitOfWorkAsync, UnitOfWork>(new HierarchicalLifetimeManager())
                .RegisterType<IUnitOfWork, UnitOfWork>()
                .RegisterType<IRepositoryAsync<Customer>, Repository<Customer>>()
+               .RegisterType<IRepositoryAsync<ExceptionLogger>, Repository<ExceptionLogger>>()
                .RegisterType<IRepositoryAsync<CustomerDemographic>, Repository<CustomerDemographic>>()
                .RegisterType<IRepositoryAsync<Product>, Repository<Product>>()
                .RegisterType<IProductService, ProductService>()
+               .RegisterType<IExceptionLoggerService, ExceptionLoggerService>()
                .RegisterType<ICustomerService, CustomerService>(new TransientLifetimeManager())
                .RegisterType<INorthwindStoredProcedures, NorthwindContext>(new HierarchicalLifetimeManager())
                .RegisterType<IStoredProcedureService, StoredProcedureService>();

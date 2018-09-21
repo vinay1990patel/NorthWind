@@ -53,13 +53,13 @@ namespace Northwind.Entities.Models.Mapping
             // Relationships
             this.HasOptional(t => t.Customer)
                 .WithMany(t => t.Customer1)
-                .HasForeignKey(d => d.CustomerID);
+                .HasForeignKey(d => d.CustomerID).WillCascadeOnDelete(false);
             this.HasOptional(t => t.Employee)
                 .WithMany(t => t.Orders)
-                .HasForeignKey(d => d.EmployeeID);
+                .HasForeignKey(d => d.EmployeeID).WillCascadeOnDelete();
             this.HasOptional(t => t.Shipper)
                 .WithMany(t => t.Orders)
-                .HasForeignKey(d => d.ShipVia);
+                .HasForeignKey(d => d.ShipVia).WillCascadeOnDelete(); ;
 
         }
     }
