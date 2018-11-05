@@ -62,6 +62,7 @@ namespace NorthWind.Api.Controllers
 
         // POST: api/Customer
         [System.Web.Http.Description.ResponseType(typeof(Customer))]
+        [CustomExceptionHandler()]
         public  async Task<IHttpActionResult> PostCustomer([FromBody]Customer customer)
         {
             if(!ModelState.IsValid)
@@ -89,6 +90,7 @@ namespace NorthWind.Api.Controllers
  }
 
         // PUT: api/Customer/5
+        [CustomExceptionHandler()]
         public IHttpActionResult PutCustomer([FromUri] string id, Customer customer)
         {
             if (!ModelState.IsValid)
@@ -107,10 +109,10 @@ namespace NorthWind.Api.Controllers
             customer1.ObjectState = ObjectState.Modified;
             try
             {
-                _customerService.Update(customer1);
+                _customerService.Update(customer);
                 _unitOfWork.SaveChanges();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateException)
             {
                 ModelState.AddModelError(string.Empty, "there is somthing went wrong");
                 if (!UserExist(id))

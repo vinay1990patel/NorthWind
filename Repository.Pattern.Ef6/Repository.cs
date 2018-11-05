@@ -83,7 +83,7 @@ namespace Repository.Pattern.Ef6
         {
             _dbSet.AddRange(entities);
         }
-
+   
         public virtual void Update(TEntity entity)
         {
             entity.ObjectState = ObjectState.Modified;

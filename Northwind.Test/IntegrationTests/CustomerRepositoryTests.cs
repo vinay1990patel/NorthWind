@@ -17,7 +17,7 @@ using Repository.Pattern.Ef6;
 using Repository.Pattern.Infrastructure;
 using Repository.Pattern.Repositories;
 using Repository.Pattern.UnitOfWork;
-using Service.Pattern;
+using Northwind.Service;
 
 #endregion
 
