@@ -7,6 +7,7 @@ using System.Web.Http.OData;
 using Northwind.Service;
 using Repository.Pattern.UnitOfWork;
 using Northwind.Entities.Models;
+using Repository.Pattern.Infrastructure;
 
 namespace Northwind.Web.Api
 {
