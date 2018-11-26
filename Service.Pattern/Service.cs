@@ -43,10 +43,9 @@ namespace Service.Pattern
 
         public virtual IQueryFluent<TEntity> Query(Expression<Func<TEntity, bool>> query) { return _repository.Query(query); }
 
-        public virtual async Task<TEntity> CustomersByCompany(params object[] keyValues) { return await _repository.FindAsync(keyValues); }
+        public virtual async Task<TEntity> FindAsync(params object[] keyValues) { return await _repository.FindAsync(keyValues); }
 
         public virtual async Task<TEntity> FindAsync(CancellationToken cancellationToken, params object[] keyValues) { return await _repository.FindAsync(cancellationToken, keyValues); }
-        //public virtual async Task<TEntity> FindAsync() { return await _repository.FindAsync(); }
 
         public virtual async Task<bool> DeleteAsync(params object[] keyValues) { return await DeleteAsync(CancellationToken.None, keyValues); }
 
@@ -54,8 +53,5 @@ namespace Service.Pattern
         public virtual async Task<bool> DeleteAsync(CancellationToken cancellationToken, params object[] keyValues) { return await _repository.DeleteAsync(cancellationToken, keyValues); }
 
         public IQueryable<TEntity> Queryable() { return _repository.Queryable(); }
-
-        public virtual async Task<TEntity> GetAllCustomer() { return await _repository.FindAsync(); }
-
     }
 }

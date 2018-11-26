@@ -1,1 +1,12 @@
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern.Ef6\obj\Debug\Repository.Pattern.Ef6.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\obj\Debug\Repository.Pattern.Ef6.csprojResolveAssemblyReference.cache
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.Ef6.dll.config
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.Ef6.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.Ef6.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\CommonServiceLocator.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\System.Net.Http.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\obj\Debug\Repository.Pattern.Ef6.csprojResolveAssemblyReference.cache
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\obj\Debug\Repository.Pattern.Ef6.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern.Ef6\obj\Debug\Repository.Pattern.Ef6.pdb

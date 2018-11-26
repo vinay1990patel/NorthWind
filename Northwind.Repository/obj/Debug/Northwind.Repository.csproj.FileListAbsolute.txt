@@ -1,3 +1,4 @@
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\obj\Debug\Northwind.Repository.csprojResolveAssemblyReference.cache
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\obj\Debug\Northwind.Repository.csprojResolveAssemblyReference.cache
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Northwind.Repository.dll.config
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Northwind.Repository.dll
@@ -9,10 +10,10 @@ C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.R
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Repository.Pattern.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Repository.Pattern.Ef6.dll
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\CommonServiceLocator.dll
-C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Repository.Pattern.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\EntityFramework.xml
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Northwind.Entities.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Repository.Pattern.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\Repository.Pattern.Ef6.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\bin\Debug\CommonServiceLocator.pdb
 C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Northwind.Repository\obj\Debug\Northwind.Repository.dll

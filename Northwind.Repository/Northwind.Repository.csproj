@@ -51,6 +51,9 @@
     <Reference Include="Northwind.Entities">
       <HintPath>..\Northwind.Entities\bin\Debug\Northwind.Entities.dll</HintPath>
     </Reference>
+    <Reference Include="Repository.Pattern">
+      <HintPath>..\Repository.Pattern\bin\Debug\Repository.Pattern.dll</HintPath>
+    </Reference>
     <Reference Include="Repository.Pattern.Ef6">
       <HintPath>..\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.Ef6.dll</HintPath>
     </Reference>
@@ -74,12 +77,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern\Repository.Pattern.csproj">
-      <Project>{6E682A14-C872-4813-B620-76E108DEA683}</Project>
-      <Name>Repository.Pattern</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

@@ -7,3 +7,21 @@ C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\gener
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Service.Pattern\obj\Debug\Service.Pattern.dll
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Service.Pattern\obj\Debug\Service.Pattern.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\System.Net.Http.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\System.Net.Http.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Service.Pattern\obj\Debug\Service.Pattern.pdb

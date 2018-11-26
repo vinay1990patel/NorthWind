@@ -43,6 +43,10 @@
     <Reference Include="Repository.Pattern">
       <HintPath>..\Repository.Pattern\obj\Debug\Repository.Pattern.dll</HintPath>
     </Reference>
+    <Reference Include="Repository.Pattern.Ef6, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Repository.Pattern.Ef6\bin\Debug\Repository.Pattern.Ef6.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -129,16 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj">
-      <Project>{f68a1d19-93fb-47c1-a22b-42bea3e4fd8c}</Project>
-      <Name>Repository.Pattern.Ef6</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Service.Pattern\Service.Pattern.csproj">
-      <Project>{86f86650-ee3c-4372-8fec-40c2fe015022}</Project>
-      <Name>Service.Pattern</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

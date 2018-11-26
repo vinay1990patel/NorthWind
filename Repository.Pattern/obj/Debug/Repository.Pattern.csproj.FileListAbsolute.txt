@@ -3,3 +3,15 @@ C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\gener
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
 C:\Users\vinay.patel\Downloads\GenericUnitofWorkAndRepositories\sourceCode\genericunitofworkandrepositories\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\bin\Debug\CommonServiceLocator.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\vinay.patel\Documents\Visual Studio 2015\Projects\NorthWind\Repository.Pattern\obj\Debug\Repository.Pattern.pdb

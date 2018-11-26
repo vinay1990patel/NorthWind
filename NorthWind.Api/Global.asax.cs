@@ -10,6 +10,7 @@ using NorthWind.Api;
 using Unity;
 using System.Web.Http.Dispatcher;
 using StructureMap.AutoMocking;
+using System.Data.Entity;
 namespace NorthWind.Api
 {
     public class WebApiApplication : System.Web.HttpApplication
@@ -22,9 +23,13 @@ namespace NorthWind.Api
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             UnityConfig.RegisterComponents();
-         
-                  
-          
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings
+       .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            GlobalConfiguration.Configuration.Formatters
+                .Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
+
+
         }
     }
 }

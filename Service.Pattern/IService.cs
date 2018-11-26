@@ -23,11 +23,10 @@ namespace Service.Pattern
         IQueryFluent<TEntity> Query();
         IQueryFluent<TEntity> Query(IQueryObject<TEntity> queryObject);
         IQueryFluent<TEntity> Query(Expression<Func<TEntity, bool>> query);
-        Task<TEntity> CustomersByCompany(params object[] keyValues);
+        Task<TEntity> FindAsync(params object[] keyValues);
         Task<TEntity> FindAsync(CancellationToken cancellationToken, params object[] keyValues);
         Task<bool> DeleteAsync(params object[] keyValues);
         Task<bool> DeleteAsync(CancellationToken cancellationToken, params object[] keyValues);
         IQueryable<TEntity> Queryable();
-        Task<TEntity> GetAllCustomer();
     }
 }

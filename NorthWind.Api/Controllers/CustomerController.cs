@@ -16,6 +16,7 @@ using NorthWind.Api.CustomFilter;
 
 namespace NorthWind.Api.Controllers
 {
+     [Authorize]
     public class CustomerController : ApiController
     {
         private  ICustomerService _customerService;

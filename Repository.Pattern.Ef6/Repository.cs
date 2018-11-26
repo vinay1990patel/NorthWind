@@ -58,7 +58,6 @@ namespace Repository.Pattern.Ef6
             return _dbSet.Find(keyValues);
         }
 
-
         public virtual IQueryable<TEntity> SelectQuery(string query, params object[] parameters)
         {
             return _dbSet.SqlQuery(query, parameters).AsQueryable();
@@ -132,10 +131,6 @@ namespace Repository.Pattern.Ef6
         public virtual async Task<TEntity> FindAsync(params object[] keyValues)
         {
             return await _dbSet.FindAsync(keyValues);
-        }
-        public virtual async Task<TEntity> FindAsync()
-        {
-            return await _dbSet.FindAsync();
         }
 
         public virtual async Task<TEntity> FindAsync(CancellationToken cancellationToken, params object[] keyValues)

@@ -10,6 +10,7 @@ using System;
 using System.Web.Http;
 using System.Web.Mvc;
 using Unity;
+using Unity.Injection;
 using Unity.Lifetime;
 using Unity.WebApi;
 
@@ -37,9 +38,9 @@ namespace NorthWind.Api
             // it is NOT necessary to register your controllers
             //   container.RegisterType<IDataContextAsync>("NorthwindContext");
             // e.g. container.RegisterType<ITestService, TestService>();
-           // container.LoadConfiguration();
+            // container.LoadConfiguration();
             container
-             
+
                .RegisterType<IDataContextAsync, NorthwindContext>(new HierarchicalLifetimeManager())
                .RegisterType<IUnitOfWorkAsync, UnitOfWork>(new HierarchicalLifetimeManager())
                .RegisterType<IUnitOfWork, UnitOfWork>()
@@ -51,7 +52,9 @@ namespace NorthWind.Api
                .RegisterType<IExceptionLoggerService, ExceptionLoggerService>()
                .RegisterType<ICustomerService, CustomerService>(new TransientLifetimeManager())
                .RegisterType<INorthwindStoredProcedures, NorthwindContext>(new HierarchicalLifetimeManager())
-               .RegisterType<IStoredProcedureService, StoredProcedureService>();
+               .RegisterType<IStoredProcedureService, StoredProcedureService>()
+               .RegisterType<AccountController>(new InjectionConstructor());
+                
                GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
             
         }
