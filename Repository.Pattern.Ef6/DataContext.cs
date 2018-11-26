@@ -20,6 +20,7 @@ namespace Repository.Pattern.Ef6
             _instanceId = Guid.NewGuid();
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
+            Configuration.AutoDetectChangesEnabled = true;
         }
 
         public Guid InstanceId { get { return _instanceId; } }

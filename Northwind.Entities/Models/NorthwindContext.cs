@@ -12,11 +12,13 @@ namespace Northwind.Entities.Models
         static NorthwindContext()
         {
             Database.SetInitializer<NorthwindContext>(null);
+           
         }
 
         public NorthwindContext()
             : base("Name=NorthwindContext")
         {
+          
         }        
 
         public DbSet<Category> Categories { get; set; }
